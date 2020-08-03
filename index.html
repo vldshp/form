@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <form action="TMS">
+      <fieldset>
+        <legend>
+          <b><u>Контактная информация</u></b>
+        </legend>
+        <label><i>Имя:</i><br /><input type="text"/></label><br />
+        <label><i>Мобильный:</i><br /><input type="tel"/></label><br />
+        <label><i>Email:</i><br /><input type="email"/></label>
+      </fieldset>
+      <p>
+        <b><u>Придумайте и введите пароль</u></b>
+      </p>
+      <label><i>Пароль:</i><br /><input type="password"/></label><br />
+      <p>
+        <b><u>Как вы узнали о TMS</u></b>
+      </p>
+      <p>
+        <input type="radio" name="answer" value="a1" />Узнал от друзей<br />
+        <input type="radio" name="answer" value="a2" />Целенаправленно искал в
+        интернете<br />
+        <input type="radio" name="answer" value="a3" />Случайно наткнулся в
+        интернете
+      </p>
+      <p>
+        <b><u>Пожелания и ожидания</u></b>
+      </p>
+      <p><textarea name="text" placeholder="Текст пожеланий"></textarea></p>
+      <button type="submit">Отправить</button>
+      <button type="reset">Очистить форму</button>
+    </form>
+  </body>
+</html>
